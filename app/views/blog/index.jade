@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  div.container
+      h1=title
+      p welcome to #{title}
+    
+block scripts
+  script $(function(){console.log('dom ready');});
